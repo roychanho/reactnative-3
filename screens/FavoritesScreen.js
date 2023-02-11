@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View } from "react-native";
 import MealsList from "../components/MealsList/MealsList";
 import { MEALS } from "../data/dummy-data";
 import { FavoritesContext } from "../store/context/favorites-context";
